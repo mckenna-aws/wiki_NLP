@@ -29,5 +29,5 @@ ENV PYTHONDONTWRITEBYTECODE=TRUE
 ENV PATH="/opt/program:${PATH}"
 
 # Set up the program in the image
-COPY wiki_model2 /opt/program
+COPY cluster_articles /opt/program
 WORKDIR /opt/program
